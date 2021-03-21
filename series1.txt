@@ -1,0 +1,6 @@
+N=int(input()) #number of terms you want
+x=int(input()) #value for x
+sum=0
+for i in range(0,N):
+    sum+=x**i
+print(sum)  #sum of series
